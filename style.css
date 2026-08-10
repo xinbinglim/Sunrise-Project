@@ -10,23 +10,63 @@ main{
 }
 
 body{
-    background-color: cadetblue;
+    background-color: #FBEFEF;
     color: white;
 }
 
-h1{
-    font-size: 60px;
+div{
+    color: black;
+}
+
+header{
+    background-color: #F5CBCB;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    margin-top: 60px;
+}
+
+h1{
+    font-size: 50px;
+    padding: 15px;
+    color: white;
+}
+
+.list{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-right: 0px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+    font-weight: bold
 }
 
 h2{
     font-style: italic;
     font-weight: 500;
+    color: black;
 }
 
 img {
-    height: 600px;
+    height: 150px;
     width: auto;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+iframe {
+    border-radius: 10px;
+    margin: 20px;
+}
+
+button{
+    align-items: center;
+    align-items: center;
+    justify-content: center;
 }
